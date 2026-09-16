@@ -3,3 +3,54 @@
     margin: 0;
     padding: 0;
 }
+
+html { 
+    font-family: 'Times New Roman', Times, serif;
+    height: 100vh;
+}
+
+body {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    min-height: 100vh;
+}
+
+footer, header { 
+    background-color: rgb(60, 60, 60);
+    height: 10vh;
+    
+}
+
+main {
+    min-height: 80vh;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    gap: 1em;
+
+    
+}
+
+footer {
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+}
+
+a {
+    color: green;
+}
+ li {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.footerul { 
+  gap: 5em;
+}
